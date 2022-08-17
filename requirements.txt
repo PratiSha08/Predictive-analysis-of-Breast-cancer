@@ -2,5 +2,5 @@ numpy
 pandas
 joblib
 streamlit
-Image
-load_model
+PIL Image
+tensorflow.keras.models load_model
