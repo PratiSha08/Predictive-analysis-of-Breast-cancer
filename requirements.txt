@@ -2,5 +2,5 @@ numpy
 pandas
 joblib
 streamlit
-PIL
-tensorflow
+Image
+load_model
