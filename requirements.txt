@@ -3,4 +3,4 @@ pandas
 joblib
 streamlit
 PIL
-tensorflow.keras.models
+tensorflow
