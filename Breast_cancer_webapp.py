@@ -21,7 +21,7 @@ image=Image.open('photo.png')
 st.image(image,caption="Predicting diagnosis results", width=(800))
 
 # loading the saved model
-ann_model = load_model('BREAST CANCER/ANN.h5')
+ann_model = load_model('ANN.h5')
 logistic_reg_model= joblib.load(open('LOGISTIC_REG.save','rb'))
 decision_tree_model= joblib.load(open('D_TREE.save','rb'))
 Random_forest_model= joblib.load(open('R_FOREST.save','rb'))
