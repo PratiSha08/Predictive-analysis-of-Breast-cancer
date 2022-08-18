@@ -17,18 +17,18 @@ from tensorflow.keras.models import load_model
 
 
 
-image=Image.open('C:/Users/prati/Desktop/Major Project/BREAST CANCER/STREAMLIT/photo.png')
+image=Image.open('photo.png')
 st.image(image,caption="Predicting diagnosis results", width=(800))
 
 # loading the saved model
-ann_model = load_model('C:/Users/prati/Desktop/Major Project/BREAST CANCER/ANN.h5')
-logistic_reg_model= joblib.load(open('C:/Users/prati/Desktop/Major Project/BREAST CANCER/LOGISTIC_REG.save','rb'))
-decision_tree_model= joblib.load(open('C:/Users/prati/Desktop/Major Project/BREAST CANCER/D_TREE.save','rb'))
-Random_forest_model= joblib.load(open('C:/Users/prati/Desktop/Major Project/BREAST CANCER/R_FOREST.save','rb'))
-knn_model= joblib.load(open('C:/Users/prati/Desktop/Major Project/BREAST CANCER/KNN.save','rb'))
+ann_model = load_model('BREAST CANCER/ANN.h5')
+logistic_reg_model= joblib.load(open('LOGISTIC_REG.save','rb'))
+decision_tree_model= joblib.load(open('D_TREE.save','rb'))
+Random_forest_model= joblib.load(open('R_FOREST.save','rb'))
+knn_model= joblib.load(open('KNN.save','rb'))
 
 # loading the Scaler
-loaded_scaler= joblib.load(open('C:/Users/prati/Desktop/Major Project/BREAST CANCER/StandardScaler.save','rb'))
+loaded_scaler= joblib.load(open('StandardScaler.save','rb'))
 
 
 st.subheader("Chose Classifier:")
