@@ -62,7 +62,7 @@ def BC_prediction(input_data):
     if (prediction[0]>0.5):
       st.write('You have a malignant(cancerous) tumour')
     else:
-      st.write('Yu have a benign(non-cancerouus) tumour')
+      st.write('You have a benign(non-cancerous) tumour')
     
 def main():
     
