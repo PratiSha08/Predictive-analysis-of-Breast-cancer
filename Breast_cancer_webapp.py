@@ -12,12 +12,12 @@ import streamlit as st
 from PIL import Image
 from tensorflow.keras.models import load_model
 
-with open('C:/Users/prati/Desktop/Major Project/BREAST CANCER/STREAMLIT/style.css') as f:
+with open('style.css') as f:
     st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
 
 
 
-image=Image.open('C:/Users/prati/Desktop/Major Project/BREAST CANCER/STREAMLIT/photo.png')
+image=Image.open('photo.png')
 st.image(image,caption="Predicting diagnosis results", width=(800))
 
 # loading the saved model
