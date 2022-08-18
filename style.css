@@ -47,3 +47,6 @@ input{
    
 }
 
+.step-up, .step-down{
+display: none !important;
+}
