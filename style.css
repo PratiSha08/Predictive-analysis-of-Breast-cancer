@@ -1,0 +1,49 @@
+*{
+    font-family: 'Cambria';
+}
+.css-1v3fvcr{
+    background: linear-gradient(#6e3cbc, #7267bc);
+    color: white;
+}
+
+h3, label, .css-1b0udgb{
+    color: white !important;
+}
+
+p{
+    color: blue !important;
+    font-size: 22px !important;
+    border: 1px solid black !important;
+    background: white;
+    padding: 10px !important;
+    width: 500px !important;
+    margin: auto;
+    text-align:center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #b8e4f0;
+    
+}
+
+button{
+    background-color: #98bae7!important;
+    color: black !important;
+    display: none !important;
+    
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #b8e4f0;
+}
+
+.css-1cpxqw2{
+  background-color: black !important;
+  color: white !important;
+  display: block !important;
+}
+
+input{
+    border-radius: 10px !important;
+   
+}
+
